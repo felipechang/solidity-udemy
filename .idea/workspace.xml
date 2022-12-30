@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cfc325a-b80c-442a-b8a0-e85c6693f0a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/providers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Inbox.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/solidity-udemy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/solidity-udemy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/Inbox.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Inbox.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Inbox.test.js" beforeDir="false" />
+    <list default="true" id="5cfc325a-b80c-442a-b8a0-e85c6693f0a1" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/contracts/Lottery.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,28 +24,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "19.0.0",
-    "javascript.nodejs.core.library.typings.version": "18.11.10",
-    "last_opened_file_path": "C:/Users/Felipe/Projects/solidity-udemy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.mocha.mocha_node_package_dir": "C:/Users/Felipe/Projects/solidity-udemy/node_modules/mocha",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "C:\\Users\\Felipe\\Projects\\solidity-udemy\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;19.0.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.10&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Felipe/Projects/solidity-udemy/contracts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/Users/Felipe/Projects/solidity-udemy/node_modules/mocha&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Felipe\\Projects\\solidity-udemy\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Felipe\Projects\solidity-udemy\contracts" />
       <recent name="C:\Users\Felipe\Projects\solidity-udemy" />
     </key>
   </component>
@@ -87,8 +72,18 @@
       <updated>1670086554376</updated>
       <workItem from="1670086555492" duration="925000" />
       <workItem from="1670089627401" duration="961000" />
-      <workItem from="1670090612053" duration="12247000" />
+      <workItem from="1670090612053" duration="12377000" />
+      <workItem from="1670176681746" duration="2495000" />
+      <workItem from="1670875685523" duration="12000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1670109229411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670109229411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +96,10 @@
         <option value="$PROJECT_DIR$/providers.js" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
